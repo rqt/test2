@@ -20,6 +20,16 @@
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@artdeco/clean-stack/-/clean-stack-1.0.0.tgz#36ff9c9f66e6cb1eb0bfa90341be21cba70c7ea6"
 
+"@rqt/aqt@1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@rqt/aqt/-/aqt-1.1.2.tgz#6ee88031222d7a86c0d8be0c5cdb276ccfbcb5e7"
+
+"@rqt/github@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@rqt/github/-/github-1.0.0.tgz#5f85e9ce290c05487b9fd1ce8bf3c893532579c1"
+  dependencies:
+    rqt "3.0.0"
+
 "@wrote/clone@1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@wrote/clone/-/clone-1.0.1.tgz#2f6e24f4855467b13cc4d7a2ca9677d07ab40292"
@@ -230,6 +240,12 @@ rexml@1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/rexml/-/rexml-1.1.0.tgz#d005c515528aa0c81a39cd456a0da40321ab3fe8"
 
+rqt@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/rqt/-/rqt-3.0.0.tgz#51ef0cd42de03961970a1e27a992ebb1de8838dc"
+  dependencies:
+    "@rqt/aqt" "1.1.2"
+
 source-map@0.7.3:
   version "0.7.3"
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.7.3.tgz#5302f8169031735226544092e64981f751750383"
@@ -273,9 +289,9 @@ yarn-s@1.1.0:
   dependencies:
     spawncommand "1.1.0"
 
-zoroaster@3.5.2:
-  version "3.5.2"
-  resolved "https://registry.yarnpkg.com/zoroaster/-/zoroaster-3.5.2.tgz#6672d2f3b41334efde3fee0ae6c0762b4763c066"
+zoroaster@3.6.1:
+  version "3.6.1"
+  resolved "https://registry.yarnpkg.com/zoroaster/-/zoroaster-3.6.1.tgz#327fce85935e6ba1f7e0fdd10269812aa3e4a4f2"
   dependencies:
     "@artdeco/clean-stack" "1.0.0"
     alamode "1.5.1"
@@ -289,4 +305,3 @@ zoroaster@3.5.2:
     promto "1.0.1"
     spawncommand "2.1.0"
     usually "1.0.0"
-    yarn-s "1.1.0"
